@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Raleway:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Raleway:wght@100;500&display=swap');
+body{
+font-family: 'Kdam Thmor Pro', sans-serif !important;
+color: whitesmoke  !important; 
+
+}
+
+/* *** HEADER  ****/
+main{
+/* font-family: 'Bebas Neue', cursive !important; */
+min-height: 80vh;
+}
+
+/* *** NAVBAR *** */
+.navbar{
+  border-bottom: .1875rem solid rgb(147,203,73) !important;
+  backdrop-filter: blur(5px);
+}
+
+nav a.nav-link {
+  letter-spacing: .0375rem;
+  cursor: pointer; 
+}
+
+.navbar-nav > a:hover {
+  color: rgb(147,203,73) !important;
+}
+
+.navbar-nav  li> a.active, .navbar-nav > a:focus{
+  border-top: .1800rem solid rgb(147,203,73) !important ;
+}
+
