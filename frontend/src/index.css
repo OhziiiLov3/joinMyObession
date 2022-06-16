@@ -31,3 +31,25 @@ nav a.nav-link {
   border-top: .1800rem solid rgb(147,203,73) !important ;
 }
 
+
+/* *** HOMESCREEN *** */
+
+
+img.card-img{
+  width: 16rem;
+  height: 12rem  !important;
+ 
+}
+
+/* ***RATING(((( */
+
+h1{
+  padding: 1rem 0;
+}
+
+
+
+.rating span{
+margin: 0.1rem;
+}
+
