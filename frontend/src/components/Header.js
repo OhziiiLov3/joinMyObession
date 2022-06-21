@@ -1,10 +1,11 @@
 import React from 'react'
+import logo from "../images/JMO_Logo.png"; 
 import { Navbar, Nav, Container, Row, } from 'react-bootstrap'
 
 const Header = () => {
     return (
         <header>
-            <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect="true">
+            <Navbar bg="light" variant="light" expand="lg" collapseOnSelect="true">
   <Container>
     <Navbar.Brand href="/">JMB</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,6 +17,7 @@ const Header = () => {
         <Nav.Link href="/login"><i className="fas fa-user"></i>Log in</Nav.Link>
       </Nav>
     </Navbar.Collapse>
+     <a className="navbar-brand" href="/"><img className="logo" src={logo} alt="logo..." /></a>
   </Container>
 </Navbar>
         </header>

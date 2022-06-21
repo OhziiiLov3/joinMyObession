@@ -31,6 +31,21 @@ nav a.nav-link {
   border-top: .1800rem solid rgb(147,203,73) !important ;
 }
 
+/**** LOGO*** */
+
+.logo{
+  width: 3rem;
+  height: 2rem  !important;
+}
+
+@media(max-width:1000px) {
+  .logo{
+  width: 2rem;
+  height: 2rem  !important;
+  display:none
+}
+
+}
 
 /* *** HOMESCREEN *** */
 
