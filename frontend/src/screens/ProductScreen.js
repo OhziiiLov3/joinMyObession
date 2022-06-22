@@ -51,7 +51,7 @@ function ProductScreen({ match }) {
                                     <Row>
                                         <Col>Status:</Col>
                                         <Col>
-                                        {training.openSlots > 0 ? 'Class Avaliable' : 'Class Closed'}
+                                        {training.openSlots > 0 ? 'Class Open' : 'Class Closed'}
                                         </Col>
                                     </Row>
                                 </ListGroup.Item>

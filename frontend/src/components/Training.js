@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 
 function Training({ training }) {
     return (
-            <Card className="mx-auto p-4 ">
+            <Card  className="mx-auto p-4 ">
             <Link to={`/training/${training._id}`}> 
                 <Card.Img src={training.image} />           
             </Link>
@@ -27,8 +27,8 @@ function Training({ training }) {
 
             </Card.Body>
 
-            </Card>
-           
+            </Card>  
+            
     )
 }
 

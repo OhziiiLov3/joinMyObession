@@ -1,9 +1,9 @@
 const trainings = [
   {
     '_id': '1',
-    'name': 'Fundamentals And Basics',
+    'name': 'Free Consultation',
     'image': '/images/ClassPic_4.jpeg', 
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
+    'description':' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
     'category': 'Beginner',
     'price': 40.00,
     'openSlots': 15,
@@ -14,8 +14,8 @@ const trainings = [
   {
     '_id': '2',
     'name': 'JoinMyTeam',
-    'image': '/images/ClassPic_5.PNG',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
+    'image': '/images/ClassPic_1.jpeg',
+    'description': ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
     'category': 'Intermediate',
     'price': 50.00,
     'openSlots': 15,
@@ -27,7 +27,7 @@ const trainings = [
     '_id': '3',
     'name': 'HEROS',
     'image': '/images/ClassPic_2.JPG',
-    'description':'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
+    'description': ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
     'category': 'Advance',
     'brand': 'Alcantara',
     'category': 'ADVANCE',
