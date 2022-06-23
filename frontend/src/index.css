@@ -19,12 +19,26 @@ h1{
   color:  rgb(147,203,73);
   padding: 3rem 0;
 }
+@media(max-width:760px) {
+h1{
+  font-family: 'Bebas Neue', cursive !important;
+  font-size: 100px !important;
+  letter-spacing: .0300rem;
+  color:  rgb(147,203,73);
+  padding: 3rem 0;
+}
+}
 
 /* *** NAVBAR *** */
+
+
+@media(max-width:1000px) {
 .navbar{
   border-bottom: .1875rem solid rgb(147,203,73) !important;
   backdrop-filter: blur(5px);
 }
+}
+
 
 nav a.nav-link {
   letter-spacing: .0375rem;
@@ -77,6 +91,60 @@ margin: 0.1rem;
 }
 
 
+/* LANDING CAROUSEL */
+.landingCarousel {
+  background-image: url(dsc08151.JPG);
+  background-size: cover;
+  background-color: rgb(147,203,73);
+  text-align: center;
+  padding-bottom: 4rem; 
+  margin-bottom: 0;
+  width: 100%;
+} 
+
+.landingCarousel h1{
+  color:  rgb(147,203,73);
+  padding: 4rem 0;
+  text-transform: uppercase;
+}
+
+.landing-content{
+  text-align: center !important;
+  max-width: 57.125rem;
+  margin: 0 auto 2rem auto;
+  background:rgb(0,0,0,.7);
+}
+
+.myLandingCarousel{
+color: white;
+background: transparent;
+margin-top: -6%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 8%;
+padding-bottom: 8%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.myLandingCarousel img{
+  border-radius: 50%;
+}
+
+.myLandingCarousel h3{
+  color:  rgb(147,203,73); 
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+.myLandingCarousel p{
+   color: rgb(255,255,255) ;
+  
+}
+
+
+
+
 /* ***TESTIMONIALS*** */
 
 .testimonal{
@@ -89,17 +157,19 @@ margin: 0.1rem;
   width: 100%;
 }
 
-.testimonal h1{
+
+  .testimonal h1{
   color:  rgb(147,203,73);
   padding: 3rem 0;
   text-transform: uppercase;
 }
 
+
 .testimonal-content{
-  text-align: center;
-  max-width: 53.125rem;
+  text-align: center !important;
+  max-width:  57.125rem;
   margin: 0 auto 2rem auto;
-  background: rgba(0,0,0,.7);
+  background: rgb(0,0,0,.7);
 
 }
 .myCarousel{
@@ -117,4 +187,16 @@ padding-right: 5%;
 .myCarousel img{
   border-radius: 50%;
 }
+
+.myCarousel h3{
+  color:  rgb(147,203,73); 
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+.myCarousel p{
+  color: rgb(255,255,255) ;
+  
+}
+
 

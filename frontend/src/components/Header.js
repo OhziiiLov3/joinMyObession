@@ -1,13 +1,13 @@
 import React from 'react'
 import logo from "../images/JMO_Logo.png"; 
-import { Navbar, Nav, Container, Row, } from 'react-bootstrap'
+import { Navbar, Nav, Container, } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
     return (
         <header>
             <Navbar bg="light" variant="light" expand="lg" collapseOnSelect="true">
-  <Container>
+  <Container >
       <LinkContainer to='/'>
     <Navbar.Brand>JMO</Navbar.Brand>
     </LinkContainer>

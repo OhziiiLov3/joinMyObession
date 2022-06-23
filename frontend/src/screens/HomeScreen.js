@@ -9,7 +9,7 @@ const HomeScreen = () => {
     return (
       <div>
         <h1 className="text-center py-3">Sign Up Today</h1>
-        <Row className="d-flex justify-content-center">
+        <Row className="d-flex justify-content-center mx-auto py-2">
           {trainings.map((training) => (
             <Col key={training._id} sm={12} md={6} lg={4} xl={3}>
               <Training training={training} />
