@@ -4,15 +4,18 @@ import {Carousel, Container, Row, Col} from 'react-bootstrap'
 function BootStrapCarousel() {
   return (
     <div>
-      <Container className="mx-auto p-5 d-flex justify-content-center">
+      <Container className="mx-auto p-2">
         <Row>
           <Col className="text-center py-3">
             <h1>JoinMyObession</h1>
             <Carousel variant="light">
-              <Carousel.Item className="p-2 col-example text-left">
+              <Carousel.Item
+                interval={5000}
+                className="p-2 col-example text-left"
+              >
                 <img
-                  className="d-block"
-                  style={{ height: 500 }}
+                  className="d-block w-100"
+                  style={{ height: 700 }}
                   src="/images/dsc08173.JPG"
                   alt="First slide"
                 />
@@ -23,10 +26,13 @@ function BootStrapCarousel() {
                   </p>
                 </Carousel.Caption>
               </Carousel.Item>
-              <Carousel.Item className="p-2 col-example text-left">
+              <Carousel.Item
+                interval={3000}
+                className="p-2 col-example text-left"
+              >
                 <img
-                  className="d-block "
-                  style={{ height: 500 }}
+                  className="d-block w-100"
+                  style={{ height: 700 }}
                   src="/images/ClassPic_1.jpeg"
                   alt="Second slide"
                 />
@@ -39,8 +45,8 @@ function BootStrapCarousel() {
               </Carousel.Item>
               <Carousel.Item className="p-2 col-example text-left">
                 <img
-                  className="d-block "
-                  style={{ height: 500 }}
+                  className="d-block w-100"
+                  style={{ height: 700 }}
                   src="/images/ClassPic_2.JPG"
                   alt="Third slide"
                 />

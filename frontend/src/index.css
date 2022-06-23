@@ -8,8 +8,14 @@ color: whitesmoke  !important;
 
 /* *** HEADER  ****/
 main{
-/* font-family: 'Bebas Neue', cursive !important; */
+
 min-height: 80vh;
+}
+
+h1{
+  font-family: 'Bebas Neue', cursive !important;
+  font-size: 100px !important;
+  letter-spacing: .0300rem;
 }
 
 /* *** NAVBAR *** */
@@ -56,7 +62,7 @@ img.card-img{
  
 }
 
-/* ***RATING(((( */
+/* ***RATING*** */
 
 h1{
   padding: 1rem 0;
@@ -68,3 +74,15 @@ h1{
 margin: 0.1rem;
 }
 
+
+/* ***Carousel*** */
+
+/* .carousel{
+width:60%;
+height: 100; 
+}
+
+.carouselInner{
+  height: 100%;
+  width: 100%; 
+} */
