@@ -12,24 +12,39 @@ import avatar4 from "../images/avatars/avatar-4.jpg"
 
 function TestimonialCarousel() {
     return (
-      <Carousel fade>
-        <Carousel.Item>
-          <img className="d-block w-100" src={avatar1} alt="First slide" />
+      <Carousel variant="light" fade>
+        <Carousel.Item className="myCarousel">
+          <img
+            className="w-50 py-5"
+            style={{ height: 450 }}
+            src={avatar1}
+            alt="First slide"
+          />
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={avatar2} alt="Second slide" />
+        <Carousel.Item className="myCarousel">
+          <img
+            className="w-50 py-5"
+            style={{ height: 450 }}
+            src={avatar2}
+            alt="Second slide"
+          />
 
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" src={avatar3} alt="Third slide" />
+        <Carousel.Item className="myCarousel">
+          <img
+            className="w-50 py-5"
+            style={{ height: 450 }}
+            src={avatar3}
+            alt="Third slide"
+          />
 
           <Carousel.Caption>
             <h3>Third slide label</h3>
@@ -38,10 +53,13 @@ function TestimonialCarousel() {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block w-100" 
-          src={avatar4} 
-          alt="Fourth slide" />
+        <Carousel.Item className="myCarousel">
+          <img
+            className="w-50 py-5"
+            style={{ height: 450 }}
+            src={avatar4}
+            alt="Fourth slide"
+          />
 
           <Carousel.Caption>
             <h3>Third slide label</h3>

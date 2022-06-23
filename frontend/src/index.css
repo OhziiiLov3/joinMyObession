@@ -16,6 +16,8 @@ h1{
   font-family: 'Bebas Neue', cursive !important;
   font-size: 100px !important;
   letter-spacing: .0300rem;
+  color:  rgb(147,203,73);
+  padding: 3rem 0;
 }
 
 /* *** NAVBAR *** */
@@ -75,14 +77,44 @@ margin: 0.1rem;
 }
 
 
-/* ***Carousel*** */
+/* ***TESTIMONIALS*** */
 
-/* .carousel{
-width:60%;
-height: 100; 
+.testimonal{
+  background-image: url(karsten-winegeart-eGSBVVtVCCw-unsplash.jpg);
+  background-size: cover;
+  background-color: rgb(147,203,73);
+  text-align: center;
+  padding-bottom: 4rem; 
+  margin-bottom: 0;
+  width: 100%;
 }
 
-.carouselInner{
-  height: 100%;
-  width: 100%; 
-} */
+.testimonal h1{
+  color:  rgb(147,203,73);
+  padding: 3rem 0;
+  text-transform: uppercase;
+}
+
+.testimonal-content{
+  text-align: center;
+  max-width: 53.125rem;
+  margin: 0 auto 2rem auto;
+  background: rgba(0,0,0,.7);
+
+}
+.myCarousel{
+color: white;
+background: transparent;
+margin-top: -6%;
+margin-left: auto;
+margin-right: auto;
+padding-top: 8%;
+padding-bottom: 8%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+.myCarousel img{
+  border-radius: 50%;
+}
+
