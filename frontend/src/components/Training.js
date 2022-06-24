@@ -6,14 +6,14 @@ import {Link} from 'react-router-dom'
 
 function Training({ training }) {
     return (
-      <Card className="mx-auto p-4 ">
+      <Card className="d-block mx-auto p-3" >
         <Link to={`/training/${training._id}`}>
-          <Card.Img src={training.image} />
+          <Card.Img className="d-block mx-auto py-2" src={training.image} />
         </Link>
         <Card.Body>
           <Card.Text className="text-center py-2" as="p">{training.bookingInfo}</Card.Text>
           <Link
-            className="btn my-2 d-block btn-success"
+            className="btn my-2  py-2 d-block btn-success"
             to={`/training/${training._id}`}
           >
             <Card.Title as="div">{training.name}</Card.Title>

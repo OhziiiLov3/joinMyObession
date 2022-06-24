@@ -153,8 +153,44 @@ padding-right: 5%;
   
 }
 
+/* ***ABOUT PAGE*** */
 
 
+.photo-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.aboutimage{
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  padding: .1rem;
+  border: 3px solid rgb(147,203,73,.7);
+  top: 10px;
+}
+
+.about-heading{
+  color: rgb(147,203,73);
+  text-transform: uppercase;
+   -webkit-text-stroke-width: .7px ;
+  -webkit-text-stroke-color: black ;
+
+}
+
+.about-heading:hover{
+  color: rgb(147,203,73);
+
+}
+
+@media(max-width:468px) {
+  .aboutimage{
+    width: 10rem;
+  }
+}
 
 /* ***TESTIMONIALS*** */
 

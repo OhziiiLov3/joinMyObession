@@ -12,7 +12,7 @@ function ProductScreen({ match }) {
 
     return (
       <div>
-        <Link to="/" className="btn btn-light my-3">
+        <Link to="/" className="btn btn-light my-4 py-2">
           Go Back
         </Link>
         <Row>
@@ -47,7 +47,7 @@ function ProductScreen({ match }) {
                   <Row>
                     <Col>Price:</Col>
                     <Col>
-                      <strong> ${training.price}</strong>
+                      <strong> {training.category}</strong>
                     </Col>
                   </Row>
                 </ListGroup.Item>
