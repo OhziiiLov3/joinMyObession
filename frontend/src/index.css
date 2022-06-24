@@ -45,6 +45,7 @@ h1{
 
 
 nav a.nav-link {
+  font-weight: 400;
   letter-spacing: .0375rem;
   cursor: pointer; 
 }

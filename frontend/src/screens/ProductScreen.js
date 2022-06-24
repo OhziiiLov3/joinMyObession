@@ -62,7 +62,7 @@ function ProductScreen({ match }) {
                 <ListGroup.Item>
                   <Button
                     className="btn-block"
-                    disabled={training.openSlots == 0}
+                    disabled={training.openSlots === 0}
                     type="button"
                   >
                     Book Class
