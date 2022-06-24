@@ -15,9 +15,11 @@ min-height: 80vh;
 h1{
   font-family: 'Bebas Neue', cursive !important;
   font-size: 100px !important;
-  letter-spacing: .0300rem;
+  letter-spacing: .0200rem;
   color:  rgb(147,203,73);
   padding: 3rem 0;
+  /* -webkit-text-stroke-width: 2px !important;
+  -webkit-text-stroke-color: black; */
 }
 @media(max-width:760px) {
 h1{
@@ -26,6 +28,8 @@ h1{
   letter-spacing: .0300rem;
   color:  rgb(147,203,73);
   padding: 3rem 0;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
 }
 }
 
@@ -73,8 +77,9 @@ nav a.nav-link {
 
 
 img.card-img{
-  width: 16rem;
+  width: 14rem;
   height: 14rem  !important;
+  border-radius: 50%;
  
 }
 
@@ -106,6 +111,8 @@ margin: 0.1rem;
   color:  rgb(147,203,73);
   padding: 4rem 0;
   text-transform: uppercase;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
 }
 
 .landing-content{
@@ -135,10 +142,14 @@ padding-right: 5%;
   color:  rgb(147,203,73); 
   font-weight: 700 !important;
   text-transform: uppercase;
+  -webkit-text-stroke-width: .1px ;
+  -webkit-text-stroke-color: black ;
 }
 
 .myLandingCarousel p{
    color: rgb(255,255,255) ;
+   -webkit-text-stroke-width: .5px !important;
+  -webkit-text-stroke-color: black !important;
   
 }
 
@@ -162,6 +173,8 @@ padding-right: 5%;
   color:  rgb(147,203,73);
   padding: 3rem 0;
   text-transform: uppercase;
+   -webkit-text-stroke-width: .3px ;
+  -webkit-text-stroke-color: black ;
 }
 
 
@@ -192,10 +205,14 @@ padding-right: 5%;
   color:  rgb(147,203,73); 
   font-weight: 700 !important;
   text-transform: uppercase;
+  -webkit-text-stroke-width: .1px ;
+  -webkit-text-stroke-color: black ;
 }
 
 .myCarousel p{
   color: rgb(255,255,255) ;
+   -webkit-text-stroke-width: .5px !important;
+  -webkit-text-stroke-color: black !important;
   
 }
 
