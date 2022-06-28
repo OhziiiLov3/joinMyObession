@@ -38,6 +38,7 @@ h1{
 .navbar {
   border-bottom: .1875rem solid rgb(147, 203, 73) !important;
   backdrop-filter: blur(5px);
+ 
 }
 
 @media(max-width:1000px) {
@@ -54,6 +55,7 @@ nav a.nav-link {
   font-weight: 400;
   letter-spacing: .0380rem;
   cursor: pointer; 
+  border-top: .1875rem solid rgb(89, 95, 100);
 }
 
 nav a.nav-link{
@@ -64,8 +66,8 @@ nav a.nav-link{
 .navbar-nav > a:hover {
   color: rgb(147,203,73) !important;
   
+  
 }
-
 
 
 .navbar-nav  li> a.active, .navbar-nav > a:focus{
