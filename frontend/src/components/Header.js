@@ -16,11 +16,11 @@ const Header = () => {
         >
           <Container>
             <LinkContainer to="/">
-              <Navbar.Brand>JMO</Navbar.Brand>
+              <Navbar.Brand className="NavBar-Brand">JMO</Navbar.Brand>
             </LinkContainer>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle aria-controls="basic-navbar-nav " />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
+              <Nav className="mx-auto">
                 <LinkContainer to="/">
                   <Nav.Link>Home</Nav.Link>
                 </LinkContainer>
@@ -45,10 +45,10 @@ const Header = () => {
                 </LinkContainer>
               </Nav>
             </Navbar.Collapse>
-            <a className="navbar-brand" href="/">
-              <img className="logo" src={logo} alt="logo..." />
-            </a>
           </Container>
+          <a className="navbar-brand py-3 ml-auto" href="/">
+            <img className="logo" src={logo} alt="logo..." />
+          </a>
         </Navbar>
       </header>
     );

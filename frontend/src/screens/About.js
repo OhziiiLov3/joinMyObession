@@ -6,8 +6,8 @@ function About() {
       <div id="about" className="container py-5">
         <div className="row">
           <div className="col-lg-6 col-xm-12 py-5 mx-auto">
-            <div className="photo-wrap mb-5">
-              <img className="aboutimage w-70" style={{height: 450}}src={aboutImage} alt="aboutimage" />
+            <div className="photo-wrap mb-5 py-4">
+              <img className="aboutimage w-50" style={{height: 350}}src={aboutImage} alt="aboutimage" />
             </div>
           </div>
           <div className="col-lg-6 col-xm-12">

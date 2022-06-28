@@ -18,8 +18,8 @@ h1{
   letter-spacing: .0200rem;
   color:  rgb(147,203,73);
   padding: 3rem 0;
-  /* -webkit-text-stroke-width: 2px !important;
-  -webkit-text-stroke-color: black; */
+  -webkit-text-stroke-width: 2px !important;
+  -webkit-text-stroke-color: black;
 }
 @media(max-width:760px) {
 h1{
@@ -35,24 +35,38 @@ h1{
 
 /* *** NAVBAR *** */
 
+.navbar {
+  border-bottom: .1875rem solid rgb(147, 203, 73) !important;
+  backdrop-filter: blur(5px);
+}
 
 @media(max-width:1000px) {
 .navbar{
   border-bottom: .1875rem solid rgb(147,203,73) !important;
   backdrop-filter: blur(5px);
+  font-size: 2rem !important;
+
 }
 }
 
 
 nav a.nav-link {
   font-weight: 400;
-  letter-spacing: .0375rem;
+  letter-spacing: .0380rem;
   cursor: pointer; 
 }
 
+nav a.nav-link{
+  text-transform: uppercase;
+}
+
+
 .navbar-nav > a:hover {
   color: rgb(147,203,73) !important;
+  
 }
+
+
 
 .navbar-nav  li> a.active, .navbar-nav > a:focus{
   border-top: .1800rem solid rgb(147,203,73) !important ;
