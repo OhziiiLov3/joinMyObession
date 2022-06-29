@@ -22,9 +22,9 @@ h1{
   -webkit-text-stroke-color: black;
 }
 @media(max-width:760px) {
-h1{
+main.h1{
   font-family: 'Bebas Neue', cursive !important;
-  font-size: 100px !important;
+  font-size: 2rem !important;
   letter-spacing: .0300rem;
   color:  rgb(147,203,73);
   padding: 3rem 0;
@@ -132,6 +132,15 @@ margin: 0.1rem;
   -webkit-text-stroke-color: black;
 }
 
+@media(max-width:768px) {
+.landingCarousel h1{
+    font-size: 4.5rem !important;
+    letter-spacing: .0300rem;
+    color: rgb(147, 203, 73);
+    padding: 2rem 0;
+  }
+}
+
 .landing-content{
   text-align: center !important;
   max-width: 57.125rem;
@@ -203,11 +212,25 @@ padding-right: 5%;
 
 }
 
-@media(max-width:468px) {
-  .aboutimage{
-    width: 10rem;
+@media(max-width:768px) {
+  img .aboutimage{
+    width: 10rem !important;
+    justify-content: center;
+    display: flex;
   }
 }
+
+@media(max-width:768px) {
+  .about-heading h1 {
+    font-size: 6rem !important;
+    justify-content: center;
+    display: flex;
+    letter-spacing: .0300rem;
+    color: rgb(147, 203, 73);
+    padding: 2rem 0;
+  }
+}
+
 
 /* ***TESTIMONIALS*** */
 
