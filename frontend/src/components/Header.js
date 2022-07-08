@@ -20,7 +20,7 @@ const Header = () => {
             </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav " />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="mx-auto py-2">
+              <Nav className="mx-auto">
                 <LinkContainer to="/">
                   <Nav.Link>Home</Nav.Link>
                 </LinkContainer>

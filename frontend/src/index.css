@@ -18,9 +18,32 @@ h1{
   letter-spacing: .0200rem;
   color:  rgb(147,203,73);
   padding: 3rem 0;
-  -webkit-text-stroke-width: 2px !important;
+  -webkit-text-stroke-width: 1.5px !important;
   -webkit-text-stroke-color: black;
 }
+
+h3 {
+  font-family: 'Bebas Neue', cursive !important;
+  font-size: 100px !important;
+  letter-spacing: .0200rem;
+  color: rgb(147, 203, 73);
+  padding: 3rem 0;
+  -webkit-text-stroke-width: 1.5px !important;
+  -webkit-text-stroke-color: black;
+}
+
+@media(max-width:760px) {
+  main.h3 {
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 1rem !important;
+    letter-spacing: .0300rem;
+    color: rgb(147, 203, 73);
+    padding: 3rem 0;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+  }
+}
+
 @media(max-width:760px) {
 main.h1{
   font-family: 'Bebas Neue', cursive !important;
@@ -41,11 +64,11 @@ main.h1{
  
 }
 
-@media(max-width:1000px) {
+@media(max-width:768px) {
 .navbar{
   border-bottom: .1875rem solid rgb(147,203,73) !important;
   backdrop-filter: blur(5px);
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
 
 }
 }
@@ -55,7 +78,6 @@ nav a.nav-link {
   font-weight: 400;
   letter-spacing: .0380rem;
   cursor: pointer; 
-  border-top: .1875rem solid rgb(89, 95, 100);
 }
 
 nav a.nav-link{
@@ -81,7 +103,7 @@ nav a.nav-link{
   height: 2rem  !important;
 }
 
-@media(max-width:1000px) {
+@media(max-width:768px) {
   .logo{
   width: 2rem;
   height: 2rem  !important;
@@ -168,7 +190,7 @@ padding-right: 5%;
   color:  rgb(147,203,73); 
   font-weight: 700 !important;
   text-transform: uppercase;
-  -webkit-text-stroke-width: .1px ;
+    -webkit-text-stroke-width: 1.5px !important;;
   -webkit-text-stroke-color: black ;
 }
 
@@ -191,8 +213,6 @@ padding-right: 5%;
 
 .aboutimage{
   position: relative;
-  width: 25rem;
-  height: 25rem;
   border-radius: 50%;
   padding: .1rem;
   border: 3px solid rgb(147,203,73,.7);
@@ -212,18 +232,17 @@ padding-right: 5%;
 
 }
 
-@media(max-width:768px) {
-  img .aboutimage{
-    width: 10rem !important;
-    justify-content: center;
-    display: flex;
+@media(max-width:414px) {
+  .aboutimage img {
+    width: 15rem !important;
   }
 }
 
-@media(max-width:768px) {
+@media(max-width:414px) {
   .about-heading h1 {
-    font-size: 6rem !important;
+    font-size: 4rem !important;
     justify-content: center;
+    align-items: center;
     display: flex;
     letter-spacing: .0300rem;
     color: rgb(147, 203, 73);
@@ -293,3 +312,48 @@ padding-right: 5%;
 }
 
 
+/* ****CLASSES**** */
+
+.myClasses {
+  padding: .7rem;
+}
+
+.myClasses-wrapper {
+  position: relative;
+  padding: 3.125rem;
+  overflow: hidden;
+  ;
+}
+
+.myClasses h1 {
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive !important;
+}
+
+.myClasses h2 {
+  text-transform: uppercase;
+  text-shadow:
+    0.02em 0 rgba(22, 21, 21, 0.825),
+    0 0.02em rgba(22, 21, 21, 0.825),
+    -0.02em 0 rgba(22, 21, 21, 0.825),
+    0 -0.02em rgba(22, 21, 21, 0.825);
+}
+
+.myClasses-wrapper:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: .125rem;
+  height: 100%;
+  background: rgb(147, 203, 73);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + .5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
