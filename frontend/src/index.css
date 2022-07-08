@@ -332,6 +332,7 @@ padding-right: 5%;
 
 .myClasses h2 {
   text-transform: uppercase;
+  text-align: center;
   text-shadow:
     0.02em 0 rgba(22, 21, 21, 0.825),
     0 0.02em rgba(22, 21, 21, 0.825),
@@ -356,4 +357,74 @@ padding-right: 5%;
   display: flex;
   justify-content: space-between;
   clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: rtl;
+} 
+
+
+ /* .marker {
+  width: 15px; 
+  height: 15px; 
+  border-radius: 50%; 
+  border: .3125rem solid black; 
+  background: rgb(147, 203, 73); 
+  margin-top: .625rem; 
+  z-index: -3;
+}  */
+
+.timeline-content {
+  width: 95%;
+  padding: 0 0.9375rem;
+  color: black;
+  direction: ltr;
+}
+
+.timeline-content h3 {
+  margin-top: .3000rem;
+  color:rgb(147, 203, 73) ;
+  font-family: 900;
+  font-size: 5rem !important;
+}
+
+.timeline-content p {
+  font-weight: 400;
+  color :aliceblue; 
+    text-shadow:
+        0.02em 0 rgba(22, 21, 21, 0.825),
+        0 0.02em rgba(22, 21, 21, 0.825),
+        -0.02em 0 rgba(22, 21, 21, 0.825),
+        0 -0.02em rgba(22, 21, 21, 0.825);
+}
+
+/* ****** MEDIA ******** */
+
+@media(maxwidth: 700px) {
+  .myClasses .container {
+    padding-left: 0;
+  }
+
+  .myClasses-wrapper::before {
+    left: .5rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+
+  .timeline-block-left {
+    float: none;
+    width: 100%;
+    direction: ltr;
+
+  }
+
 }
