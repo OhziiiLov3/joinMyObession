@@ -369,15 +369,15 @@ padding-right: 5%;
 } 
 
 
- /* .marker {
-  width: 15px; 
-  height: 15px; 
+ .marker {
+  width: 1rem; 
+  height: 1rem; 
   border-radius: 50%; 
   border: .3125rem solid black; 
   background: rgb(147, 203, 73); 
   margin-top: .625rem; 
-  z-index: -3;
-}  */
+  z-index: 3;
+} 
 
 .timeline-content {
   width: 95%;
