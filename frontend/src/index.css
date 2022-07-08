@@ -320,7 +320,7 @@ padding-right: 5%;
 
 .myClasses-wrapper {
   position: relative;
-  padding: 3.125rem;
+  padding: 2.125rem;
   overflow: hidden;
   ;
 }
@@ -332,6 +332,7 @@ padding-right: 5%;
 
 .myClasses h2 {
   text-transform: uppercase;
+  margin-bottom: 2rem;
   text-align: center;
   text-shadow:
     0.02em 0 rgba(22, 21, 21, 0.825),
