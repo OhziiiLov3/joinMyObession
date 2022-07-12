@@ -8,6 +8,8 @@ import About from './screens/About'
 import Classes from './screens/Classes'
 import LandingCarousel from "./components/LandingCarousel"
 import Testimonials from './components/Testimonials'
+import Contact from './components/Contact'
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         </Container>
       </main>
       <Testimonials />
+      <Contact />
       <Footer />
     </Router>
   );

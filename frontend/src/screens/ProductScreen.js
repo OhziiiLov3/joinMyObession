@@ -4,6 +4,7 @@ import { Row, Col, Image, ListGroup, Button, Card } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import trainings from '../trainings'
 
+
 function ProductScreen({ match }) {
     const training_id = useParams();
     const training = trainings.find((t) => t._id === training_id.id)
@@ -60,13 +61,13 @@ function ProductScreen({ match }) {
                   </Row>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <Button
-                    className="btn-block"
-                    disabled={training.openSlots === 0}
-                    type="button"
-                  >
-                    Book Class
-                  </Button>
+                    <Button
+                      className="btn-block"
+                      disabled={training.openSlots === 0}
+                      type="button"
+                    >
+                      Book Class
+                    </Button>
                 </ListGroup.Item>
               </ListGroup>
             </Card>
