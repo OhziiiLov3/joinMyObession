@@ -469,3 +469,91 @@ padding-right: 5%;
   -webkit-text-stroke-color: rgb(147, 203, 73) !important;
 
 }
+
+/*------------ CONTACT INPUTS------------------*/
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: white;
+  resize: none;
+  /* border: 0; */
+  border-bottom: .125rem solid rgb(147, 203, 73) !important;
+  /* border-radius: 0; */
+  outline: 0 !important;
+  box-shadow: none !important;
+  font-weight: 800; 
+
+}
+
+.contact .container {
+  padding: 4rem 0;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  background: transparent;
+  color: rgb(147, 203, 73) !important;;
+  border-bottom: .125rem solid black;
+}
+
+.contact textarea {
+  height: 11.55rem !important;
+
+
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  background: none;
+  width: 50%;
+}
+
+.contact-btn:hover {
+  color: rgba(22, 21, 21, 0.825);
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: .130rem;
+  background: rgb(147, 203, 73);
+  display: flex;
+}
+
+input:focus+.line,
+textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+
+}
+
+
+/* ***** CONTACT MEDIA **** */
+
+@media(max-width:768px) {
+  .contact {
+    overflow-x: hidden;
+  }
+
+  .contact .container {
+    padding: 0 1rem;
+  }
+
+  .contact p {
+    padding: 0 0.4rem;
+  }
+}

@@ -3,7 +3,7 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="contact mx-auto py-4">
+    <div id="contact" className="contact mx-auto py-4">
       <div className="text-center">
         <h1>Contact Me</h1>
         <p>
@@ -22,6 +22,7 @@ function Contact() {
               placeholder="Name"
               name="name"
             />
+            <div className="line"></div>
             {/* PHONE INPUT */}
             <input
               id="phone"
@@ -38,13 +39,14 @@ function Contact() {
               placeholder="Email"
               email="email"
             />
+            <div className="line"></div>
             {/* Message/Subject*/}
             <input
-              id="message"
+              id="subject"
               text="text"
               className="form-control"
-              placeholder="Message"
-              Message="Message"
+              placeholder="Subject"
+              subject="subject"
             />
           </div>
           <div className="col-md-6 col-xs-12">
@@ -56,6 +58,7 @@ function Contact() {
               placeholder="Description"
               Description="Description"
             ></textarea>
+            <div className="line"></div>
             <button className="btn btn-success contact-btn" type="submit">
               Connect
             </button>
