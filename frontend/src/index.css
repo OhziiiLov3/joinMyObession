@@ -102,11 +102,11 @@ nav a.nav-link{
   height: 2rem  !important;
 }
 
-@media(max-width:375px) {
-  .logo{
-  width: 2rem;
-  height: 2rem  !important;
-  display:none
+@media(max-width: 1000px) {
+  .logo, img{
+  /* width: 2rem;
+  height: 2rem  !important; */
+  display: none !important;
 }
 
 }
