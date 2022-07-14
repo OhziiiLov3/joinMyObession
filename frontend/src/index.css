@@ -542,8 +542,8 @@ textarea.form-control {
 }
 
 .error-message {
-  color: rgb(147, 203, 73);
-  background: white;
+  color:  rgba(22, 22, 22);
+  background: rgb(147, 203, 73,.7);
   text-align: left;
 
 }
