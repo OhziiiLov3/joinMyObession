@@ -525,11 +525,11 @@ padding-right: 5%;
   display: flex;
 }
 
-input:focus+.line,
+/* input:focus+.line,
 textarea:focus+.line {
   width: 100%;
   transition: width 0.5s ease-in-out;
-}
+} */
 
 input.form-control {
   margin: -0.3rem 0;
@@ -539,6 +539,18 @@ input.form-control {
 textarea.form-control {
   margin: -0.3rem 0;
 
+}
+
+.error-message {
+  color: rgb(147, 203, 73);
+  background: white;
+  text-align: left;
+
+}
+
+.success-message {
+  font-weight: 900;
+  color: rgb(147, 203, 73);
 }
 
 
