@@ -31,6 +31,7 @@ function Contact() {
               placeholder="Phone Number"
               phone="phone"
             />
+            <div className="line"></div>
             {/* EMAIL INPUT */}
             <input
               id="email"
@@ -42,11 +43,11 @@ function Contact() {
             <div className="line"></div>
             {/* Message/Subject*/}
             <input
-              id="subject"
+              id="message"
               text="text"
               className="form-control"
               placeholder="Subject"
-              subject="subject"
+              message="message"
             />
           </div>
           <div className="col-md-6 col-xs-12">
@@ -56,9 +57,9 @@ function Contact() {
               text="text"
               className="form-control"
               placeholder="Description"
-              Description="Description"
+              description="description"
             ></textarea>
-            <div className="line"></div>
+            {/* <div className="line"></div> */}
             <button className="btn btn-success contact-btn" type="submit">
               Connect
             </button>

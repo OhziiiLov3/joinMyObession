@@ -478,7 +478,7 @@ padding-right: 5%;
   box-sizing: border-box;
   background: white;
   resize: none;
-  /* border: 0; */
+  border: 0;
   border-bottom: .125rem solid rgb(147, 203, 73) !important;
   /* border-radius: 0; */
   outline: 0 !important;
@@ -488,7 +488,7 @@ padding-right: 5%;
 }
 
 .contact .container {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
 
 .contact input:focus,
@@ -518,7 +518,7 @@ padding-right: 5%;
 
 .line {
   position: relative;
-  top: -0.8rem;
+  top: -0.1rem;
   width: 0;
   height: .130rem;
   background: rgb(147, 203, 73);
