@@ -7,7 +7,7 @@ import trainings from '../trainings'
 
 const HomeScreen = () => {
     return (
-      <div>
+      <div id="home">
         <h1 className="text-center py-3">Sign Up Today</h1>
         <Row className="d-flex justify-content-center mx-auto py-2 w-100">
           

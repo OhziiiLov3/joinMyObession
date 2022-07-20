@@ -30,7 +30,6 @@ const trainings = [
     'description': ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
     'category': 'Advance',
     'brand': 'Alcantara',
-    'category': 'ADVANCE',
      'bookingInfo': ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque elit eget gravida cum.',
     'openSlots': 0,
     'Hours': 1.5,

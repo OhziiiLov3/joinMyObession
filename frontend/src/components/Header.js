@@ -22,7 +22,15 @@ const Header = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="mx-auto">
                 <LinkContainer to="/">
-                  <Nav.Link>Home</Nav.Link>
+                  <Link
+                    smooth={true}
+                    to="home"
+                    offset={-100}
+                    className="nav-link"
+                    href="#"
+                  >
+                    Home
+                  </Link>
                 </LinkContainer>
                 <LinkContainer to="/about">
                   <Link
@@ -37,6 +45,17 @@ const Header = () => {
                 </LinkContainer>
                 <LinkContainer to="/classes">
                   <Nav.Link>Classes</Nav.Link>
+                </LinkContainer>
+                <LinkContainer to="/">
+                  <Link
+                    smooth={true}
+                    to="contact"
+                    offset={-100}
+                    className="nav-link"
+                    href="#"
+                  >
+                    Contact
+                  </Link>
                 </LinkContainer>
                 <LinkContainer to="/login">
                   <Nav.Link>

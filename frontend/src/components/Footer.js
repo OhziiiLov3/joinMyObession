@@ -5,8 +5,8 @@ import {
   FacebookIcon,
   TwitterShareButton,
   TwitterIcon,
-  RedditShareButton,
-  RedditIcon,
+  WhatsappShareButton,
+  WhatsappIcon,
   LinkedinShareButton,
   LinkedinIcon,
 } from "react-share";
@@ -18,45 +18,45 @@ const Footer = () => {
         <Container className="container">
           <Row className="row">
             <Col className="text-center py-3">
-              Copyright &copy; JoinMyObession
-            </Col>
-            <div className="col-lg-5 col-md-5 col-sm-6 align-itmes-center">
-              <div className="d-flex justify-content-center">
-                <FacebookShareButton
-                  url={"https://zootyworld.com/zooty-water"}
-                  quote={"Zooty Water, Solarized Strcutred Alkaline Water!"}
-                  hashtag="#BlackEntrepreneur"
-                >
-                  <FacebookIcon className="mx-3" size={36} />
-                </FacebookShareButton>
-                <TwitterShareButton
-                  url={"https://zootyworld.com/zooty-water"}
-                  quote={"Zooty Water, Solarized Strcutred Alkaline Water!"}
-                  hashtag="#BlackEntrepreneur"
-                >
-                  <TwitterIcon className="mx-3" size={36} />
-                </TwitterShareButton>
-                <RedditShareButton
-                  url={"https://zootyworld.com/zooty-water"}
-                  quote={"Zooty Water, Solarized Strcutred Alkaline Water!"}
-                  hashtag="#BlackEntrepreneur"
-                >
-                  <RedditIcon className="mx-3" size={36} />
-                </RedditShareButton>
-                <LinkedinShareButton
-                  url={"https://zootyworld.com/zooty-water"}
-                  quote={"Zooty Water, Solarized Strcutred Alkaline Water!"}
-                  hashtag="#BlackEntrepreneur"
-                >
-                  <LinkedinIcon className="mx-3" size={36} />
-                </LinkedinShareButton>
+              {/* Copyright &copy; JoinMyObession */}
+              <div className="align-itmes-center">
+                <div className="d-flex justify-content-center">
+                  <FacebookShareButton
+                    url={"https://facebook.com"}
+                    quote={"JoinMyObession!"}
+                    hashtag="#fitness"
+                  >
+                    <FacebookIcon className="mx-3" size={36} />
+                  </FacebookShareButton>
+                  <TwitterShareButton
+                    url={"https://twitter.vom"}
+                    quote={"JoinMyObession!"}
+                    hashtag="#JoinMyObession"
+                  >
+                    <TwitterIcon className="mx-3" size={36} />
+                  </TwitterShareButton>
+                  <WhatsappShareButton
+                    url={"https://zootyworld.com/zooty-water"}
+                    quote={"Zooty Water, Solarized Strcutred Alkaline Water!"}
+                    hashtag="#BlackEntrepreneur"
+                  >
+                    <WhatsappIcon className="mx-3" size={36} />
+                  </WhatsappShareButton>
+                  <LinkedinShareButton
+                    url={"https://zootyworld.com/zooty-water"}
+                    quote={"Zooty Water, Solarized Strcutred Alkaline Water!"}
+                    hashtag="#BlackEntrepreneur"
+                  >
+                    <LinkedinIcon className="mx-3" size={36} />
+                  </LinkedinShareButton>
+                </div>
+                <p className="pt-3 text-center">
+                  Copyright&copy;
+                  {new Date().getFullYear()}&nbsp;JoinMyObession | All Rights
+                  Reserved
+                </p>
               </div>
-              <p className="pt-3 text-center">
-                Copyright&copy;
-                {new Date().getFullYear()}&nbsp;Zooty World LLC | All Rights
-                Reserved
-              </p>
-            </div>
+            </Col>
           </Row>
         </Container>
       </footer>
