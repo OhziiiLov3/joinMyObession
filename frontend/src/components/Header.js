@@ -44,7 +44,15 @@ const Header = () => {
                   </Link>
                 </LinkContainer>
                 <LinkContainer to="/classes">
-                  <Nav.Link>Classes</Nav.Link>
+                  <Link
+                    smooth={true}
+                    to="classes"
+                    offset={-100}
+                    className="nav-link"
+                    href="#"
+                  >
+                    Classes
+                  </Link>
                 </LinkContainer>
                 <LinkContainer to="/">
                   <Link
@@ -58,9 +66,15 @@ const Header = () => {
                   </Link>
                 </LinkContainer>
                 <LinkContainer to="/login">
-                  <Nav.Link>
+                  <Link
+                    smooth={true}
+                    to="login"
+                    offset={-100}
+                    className="nav-link"
+                    href="#"
+                  >
                     <i className="fas fa-user"></i>Log in
-                  </Nav.Link>
+                  </Link>
                 </LinkContainer>
               </Nav>
             </Navbar.Collapse>

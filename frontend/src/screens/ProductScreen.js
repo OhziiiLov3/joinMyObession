@@ -18,12 +18,12 @@ function ProductScreen({ match }) {
         </Link>
         <Row>
           <Col md={6}>
-            <Image src={training.image} alt={training.name} fluid />
+            <Image className="w-100"src={training.image} alt={training.name} fluid />
           </Col>
           <Col md={3}>
             <ListGroup variant="flush">
-              <ListGroup.Item>
-                <h3>{training.name}</h3>
+              <ListGroup.Item className="py-2 ">
+                <h3 className="consultationTitle">{training.name}</h3>
               </ListGroup.Item>
 
               <ListGroup.Item>

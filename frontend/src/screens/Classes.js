@@ -2,7 +2,7 @@ import React from 'react'
 
 function Classes() {
   return (
-    <div className="myClasses">
+    <div id="classes" className="myClasses">
       <div className="d-flex justify-content-center my-5">
         <h1>My Services</h1>
       </div>
