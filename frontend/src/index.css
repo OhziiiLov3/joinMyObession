@@ -121,6 +121,13 @@ img.card-img{
  
 }
 
+.trainingCard{
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+
 
 /* PRODUCR SCREEN */
 .consultationTitle{

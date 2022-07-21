@@ -5,6 +5,7 @@ import Rating from '../components/Rating'
 import trainings from '../trainings'
 
 
+
 function ProductScreen({ match }) {
     const training_id = useParams();
     const training = trainings.find((t) => t._id === training_id.id)
@@ -18,20 +19,32 @@ function ProductScreen({ match }) {
         </Link>
         <Row>
           <Col md={6}>
-            <Image className="w-100"src={training.image} alt={training.name} fluid />
+            <Image
+              className="w-100"
+              src={training.image}
+              alt={training.name}
+              fluid
+            />
           </Col>
-          <Col md={3}>
+          <Col md={4}>
             <ListGroup variant="flush">
               <ListGroup.Item className="py-2 ">
                 <h3 className="consultationTitle">{training.name}</h3>
               </ListGroup.Item>
 
               <ListGroup.Item>
-                <Rating
+                {/* <Rating
                   value={training.rating}
                   text={`${training.numReviews} Reviews`}
                   color="#f8e825"
-                />
+                /> */}
+                <span>
+                  <i
+                    style={{ color: "white" }}
+                    className="fa-solid fa-handshake"
+                    size="5x"
+                  ></i>
+                </span>
               </ListGroup.Item>
 
               {/* <ListGroup.Item>Price:${training.bookingInfo}</ListGroup.Item> */}
@@ -39,9 +52,19 @@ function ProductScreen({ match }) {
               <ListGroup.Item>
                 Description:{training.description}
               </ListGroup.Item>
+              <ListGroup.Item>
+                <Button
+                  style={{ width: 200 }}
+                  className="btn btn-info py-3 mx-5 "
+                  disabled={training.openSlots === 0}
+                  type="button"
+                >
+                  Book Class
+                </Button>
+              </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col md={3}>
+          {/* <Col md={3}>
             <Card>
               <ListGroup variant="flush">
                 <ListGroup.Item>
@@ -60,18 +83,9 @@ function ProductScreen({ match }) {
                     </Col>
                   </Row>
                 </ListGroup.Item>
-                <ListGroup.Item>
-                    <Button
-                      className="btn-block"
-                      disabled={training.openSlots === 0}
-                      type="button"
-                    >
-                      Book Class
-                    </Button>
-                </ListGroup.Item>
               </ListGroup>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </div>
     );
