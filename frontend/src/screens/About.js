@@ -3,7 +3,7 @@ import aboutImage from "../images/aboutImage.jpeg";
 
 function About() {
     return (
-      <div id="about" className="container py-5">
+      <div id="about" className="cracontainer py-5">
         <div className="row">
           <div className="col-lg-6 col-xm-12 py-5 mx-auto">
             <div className="photo-wrap mb-4 py-3">

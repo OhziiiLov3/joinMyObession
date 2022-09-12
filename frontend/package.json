@@ -10,6 +10,7 @@
     "axios": "^0.27.2",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
+    "react-calendly": "^4.0.1",
     "react-dom": "^18.1.0",
     "react-google-login": "^5.2.2",
     "react-hook-form": "^7.33.1",

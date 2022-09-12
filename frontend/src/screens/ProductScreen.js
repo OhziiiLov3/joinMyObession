@@ -3,6 +3,7 @@ import {Link, useParams} from 'react-router-dom'
 import { Row, Col, Image, ListGroup, Button, Card } from 'react-bootstrap'
 import Rating from '../components/Rating'
 import trainings from '../trainings'
+import { InlineWidget } from "react-calendly";
 
 
 
@@ -26,41 +27,41 @@ function ProductScreen({ match }) {
               fluid
             />
           </Col>
-          <Col md={4}>
+          <Col md={4} className="mx-auto py-2">
             <ListGroup variant="flush">
               <ListGroup.Item className="py-2 ">
                 <h3 className="consultationTitle">{training.name}</h3>
               </ListGroup.Item>
 
-              <ListGroup.Item>
+              {/* <ListGroup.Item>
                 {/* <Rating
                   value={training.rating}
                   text={`${training.numReviews} Reviews`}
                   color="#f8e825"
                 /> */}
-                <span>
+              {/* <span>
                   <i
                     style={{ color: "white" }}
                     className="fa-solid fa-handshake"
                     size="5x"
                   ></i>
-                </span>
-              </ListGroup.Item>
+                </span> */} 
+              {/* </ListGroup.Item>  */}
 
-              {/* <ListGroup.Item>Price:${training.bookingInfo}</ListGroup.Item> */}
+              <ListGroup.Item>User:${training.user}</ListGroup.Item> 
 
               <ListGroup.Item>
                 Description:{training.description}
               </ListGroup.Item>
               <ListGroup.Item>
-                <Button
-                  style={{ width: 200 }}
-                  className="btn btn-info py-3 mx-5 "
-                  disabled={training.openSlots === 0}
-                  type="button"
+                <div
+                  className="App py-2 "
+                  styles={{
+                    height: "1000px",
+                  }}
                 >
-                  Book Class
-                </Button>
+                  <InlineWidget url="https://calendly.com/keith-baskerville-ohz" />
+                </div>
               </ListGroup.Item>
             </ListGroup>
           </Col>
