@@ -3,7 +3,11 @@ import React from 'react'
 import Training from '../components/Training'
 // import trainings from '../trainings'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faDesktop, faDatabase, faTools} from '@fortawesome/free-solid-svg-icons'
+import {
+  faDesktop,
+  faDumbbell,
+  faUser
+} from "@fortawesome/free-solid-svg-icons";
 
 import {Link} from "react-scroll"
 
@@ -35,9 +39,9 @@ const HomeScreen = () => {
                   </Link>
                   <p>
                     {" "}
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus earum dolore omnis!.{" "}
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus earum dolore omnis!.{" "}
                   </p>
-        
                 </div>
               </div>
               {/*  */}
@@ -47,7 +51,7 @@ const HomeScreen = () => {
                     {" "}
                     <FontAwesomeIcon
                       className="service-icon"
-                      icon={faDatabase}
+                      icon={faUser}
                       size="2x"
                     />{" "}
                   </div>
@@ -62,8 +66,8 @@ const HomeScreen = () => {
                   </Link>
                   <p>
                     {" "}
-                    Technologies: Amazon RDB | Amazon DynamoDB | MySQL | MongoDB
-                    | PostgreSQL
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus earum dolore omnis!.{" "}
                   </p>
                 </div>
               </div>
@@ -74,7 +78,7 @@ const HomeScreen = () => {
                     {" "}
                     <FontAwesomeIcon
                       className="service-icon"
-                      icon={faTools}
+                      icon={faDumbbell}
                       size="2x"
                     />{" "}
                   </div>
@@ -88,8 +92,9 @@ const HomeScreen = () => {
                     <h3>Learn More</h3>
                   </Link>
                   <p>
-                    Certifications: Software Engineering Immersive | PCEP -
-                    Certified Entry-Level Python Programmer
+                    {" "}
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Voluptatibus earum dolore omnis!.{" "}
                   </p>
                 </div>
               </div>

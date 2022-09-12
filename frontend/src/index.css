@@ -153,7 +153,10 @@ img.card-img{
 }
 
 .services .box:hover h3 {
-  padding: .25rem;
+  font-size: 50px !important;
+  position: relative;
+  bottom: 50px;
+  padding: .30rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -161,6 +164,9 @@ img.card-img{
 }
 
 .services .box:hover p {
+  position: relative;
+  font-size: 1.6rem;
+  bottom: 55px;
   padding: .25rem;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
@@ -172,7 +178,7 @@ img.card-img{
   text-transform: none;
   position: relative;
   bottom: 120px;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
   padding: .10rem;
