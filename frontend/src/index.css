@@ -144,6 +144,7 @@ img.card-img{
 }
 
 .services h3 {
+  color: white; 
   position: relative;
   bottom: 75px;
   font-size: 50px !important;

@@ -1,7 +1,8 @@
 import React from 'react'
 // import {Row, Col  } from 'react-bootstrap'
-import Training from '../components/Training'
+// import Training from '../components/Training'
 // import trainings from '../trainings'
+import { LinkContainer,} from "react-router-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faDesktop,
@@ -10,97 +11,97 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import {Link} from "react-scroll"
+import { Container } from 'react-bootstrap';
 
 const HomeScreen = () => {
     return (
       <div id="services" className="services">
         <h1 className="text-center py-3">
           <h1>Sign Up Today</h1>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-4 col-sm-7">
-                <div className="box">
-                  <div className="circle">
-                    {" "}
-                    <FontAwesomeIcon
-                      className="service-icon"
-                      icon={faDesktop}
-                      size="2x"
-                    />{" "}
+          <Container>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-4 col-sm-7">
+                  <div className="box">
+                    <div className="circle">
+                      {" "}
+                      <FontAwesomeIcon
+                        className="service-icon"
+                        icon={faDesktop}
+                        size="2x"
+                      />{" "}
+                    </div>
+                    <LinkContainer to="/training/1">
+                      <Link className="service-link">
+                        <h3> Free Consultation</h3>
+                      </Link>
+                    </LinkContainer>
+                    <p>
+                      {" "}
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptatibus earum dolore omnis!.{" "}
+                    </p>
                   </div>
-                  <Link
-                    smooth={true}
-                    to="projects"
-                    offset={-110}
-                    href="#"
-                    className="service-link"
-                  >
-                    <h3> Free Consultation</h3>
-                  </Link>
-                  <p>
-                    {" "}
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus earum dolore omnis!.{" "}
-                  </p>
                 </div>
-              </div>
-              {/*  */}
-              <div className="col-md-4 col-sm-7">
-                <div className="box">
-                  <div className="circle">
-                    {" "}
-                    <FontAwesomeIcon
-                      className="service-icon"
-                      icon={faUser}
-                      size="2x"
-                    />{" "}
+                {/*  */}
+                <div className="col-md-4 col-sm-7">
+                  <div className="box">
+                    <div className="circle">
+                      {" "}
+                      <FontAwesomeIcon
+                        className="service-icon"
+                        icon={faUser}
+                        size="2x"
+                      />{" "}
+                    </div>
+                    <Link
+                      smooth={true}
+                      to="projects"
+                      offset={-110}
+                      href="#"
+                      className="service-link"
+                    >
+                      <h3> JoinMyTeam</h3>
+                    </Link>
+                    <p>
+                      {" "}
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptatibus earum dolore omnis!.{" "}
+                    </p>
                   </div>
-                  <Link
-                    smooth={true}
-                    to="projects"
-                    offset={-110}
-                    href="#"
-                    className="service-link"
-                  >
-                    <h3> JoinMyTeam</h3>
-                  </Link>
-                  <p>
-                    {" "}
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus earum dolore omnis!.{" "}
-                  </p>
                 </div>
-              </div>
-              {/*  */}
-              <div className="col-md-4 col-sm-7">
-                <div className="box">
-                  <div className="circle">
-                    {" "}
-                    <FontAwesomeIcon
-                      className="service-icon"
-                      icon={faDumbbell}
-                      size="2x"
-                    />{" "}
+                {/*  */}
+                <div className="col-md-4 col-sm-7">
+                  <div className="box">
+                    <div className="circle">
+                      {" "}
+                      <FontAwesomeIcon
+                        className="service-icon"
+                        icon={faDumbbell}
+                        size="2x"
+                      />{" "}
+                    </div>
+                    <Link
+                      smooth={true}
+                      to="projects"
+                      offset={-110}
+                      href="#"
+                      className="service-link"
+                    >
+                      <h3>Learn More</h3>
+                    </Link>
+                    <p>
+                      {" "}
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptatibus earum dolore omnis!.{" "}
+                    </p>
                   </div>
-                  <Link
-                    smooth={true}
-                    to="projects"
-                    offset={-110}
-                    href="#"
-                    className="service-link"
-                  >
-                    <h3>Learn More</h3>
-                  </Link>
-                  <p>
-                    {" "}
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus earum dolore omnis!.{" "}
-                  </p>
                 </div>
+
+                {/*  */}
               </div>
-              {/*  */}
             </div>
-          </div>
+          </Container>
         </h1>
       </div>
 
