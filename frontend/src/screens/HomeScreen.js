@@ -2,7 +2,7 @@ import React from 'react'
 // import {Row, Col  } from 'react-bootstrap'
 // import Training from '../components/Training'
 // import trainings from '../trainings'
-import { LinkContainer,} from "react-router-bootstrap";
+import { LinkContainer, Button} from "react-router-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faDesktop,
@@ -36,12 +36,15 @@ const HomeScreen = () => {
                         <h3> Free Consultation</h3>
                       </Link>
                     </LinkContainer>
-                    <button
-                      type="button"
-                      className="card-btn btn btn-success disabled py-2"
-                    >
-                      <h2>Book Now</h2>
-                    </button>
+
+                    <LinkContainer to="/training/1">
+                      <Link
+                        type="button"
+                        className="card-btn btn btn-success my-4 py-2"
+                      >
+                        <h2>Book Now</h2>
+                      </Link>
+                    </LinkContainer>
                     <p>
                       {" "}
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -62,19 +65,21 @@ const HomeScreen = () => {
                     </div>
                     <Link
                       smooth={true}
-                      to="projects"
+                      to="/classes"
                       offset={-110}
                       href="#"
                       className="service-link"
                     >
                       <h3> JoinMyTeam</h3>
                     </Link>
-                    <button
-                      type="button"
-                      className="card-btn btn btn-success disabled"
-                    >
-                      <h2>Join</h2>
-                    </button>
+                    <LinkContainer to="/login">
+                      <Link
+                        type="button"
+                        className="card-btn btn btn-success my-4 py-2"
+                      >
+                        <h2>Join</h2>
+                      </Link>
+                    </LinkContainer>
                     <p>
                       {" "}
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -102,12 +107,14 @@ const HomeScreen = () => {
                     >
                       <h3>Learn More</h3>
                     </Link>
-                    <button
-                      type="button"
-                      className="card-btn btn btn-success disabled"
-                    >
-                     <h2>Learn More</h2> 
-                    </button>
+                    <LinkContainer to="/classes">
+                      <Link
+                        type="button"
+                        className="card-btn btn btn-success my-4 py-2"
+                      >
+                        <h2>Learn More</h2>
+                      </Link>
+                    </LinkContainer>
                     <p>
                       {" "}
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
