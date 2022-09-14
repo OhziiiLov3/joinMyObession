@@ -36,6 +36,12 @@ const HomeScreen = () => {
                         <h3> Free Consultation</h3>
                       </Link>
                     </LinkContainer>
+                    <button
+                      type="button"
+                      className="card-btn btn btn-success disabled py-2"
+                    >
+                      <h2>Book Now</h2>
+                    </button>
                     <p>
                       {" "}
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -63,6 +69,12 @@ const HomeScreen = () => {
                     >
                       <h3> JoinMyTeam</h3>
                     </Link>
+                    <button
+                      type="button"
+                      className="card-btn btn btn-success disabled"
+                    >
+                      <h2>Join</h2>
+                    </button>
                     <p>
                       {" "}
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -90,6 +102,12 @@ const HomeScreen = () => {
                     >
                       <h3>Learn More</h3>
                     </Link>
+                    <button
+                      type="button"
+                      className="card-btn btn btn-success disabled"
+                    >
+                     <h2>Learn More</h2> 
+                    </button>
                     <p>
                       {" "}
                       Lorem, ipsum dolor sit amet consectetur adipisicing elit.

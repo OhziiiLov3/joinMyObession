@@ -159,18 +159,15 @@ img.card-img{
   bottom: 50px;
   padding: .30rem;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
-  font-family: 'Roboto', sans-serif;
 
 }
 
 .services .box:hover p {
   position: relative;
-  font-size: 1.6rem;
-  bottom: 55px;
+  font-size: 1.4rem;
+  bottom: 120px;
   padding: .25rem;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
 
 }
 
@@ -178,7 +175,7 @@ img.card-img{
   color: white;
   text-transform: none;
   position: relative;
-  bottom: 120px;
+  bottom: 170px;
   font-size: 1.6rem;
   font-family: 'Oswald', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -214,7 +211,6 @@ img.card-img{
   font-size: 3.4rem;
   position: absolute;
   align-items: center;
-  color: var(--primary-blue);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -237,19 +233,38 @@ img.card-img{
 }
 
 .services .box:hover {
-  background: var(--Primary-glass);
-  border-bottom: .3125rem var(--primary-black) !important;
+  background: linear-gradient(to right bottom,
+      rgba(255, 255, 255, 0.07),
+      rgba(255, 255, 255, 0.06));;
+  border-bottom: .3125rem black !important;
 }
 
-
-.services .box:hover .service-icon {
-  color: var(--primary-black) !important;
-}
 
 .service-link {
   text-decoration: none;
 }
 
+.card-btn {
+  position: relative;
+  bottom: 160px;
+  margin: 1.2rem 0 0 0;
+  background: none;
+  width: 50%;
+}
+
+.card-btn h2{
+  position: relative;
+  top: 5px;
+  font-size: 2rem;
+  color: white;
+}
+ .services .box:hover .card-btn {
+  position: relative;
+  bottom: 100px;
+  margin: 1rem 0 0 0;
+  background: white;
+  width: 50%;
+}
 
 
 /* PRODUCR SCREEN */
