@@ -21,7 +21,7 @@ function ProductScreen({ match }) {
         <Row>
           <Col md={6}>
             <Image
-              className="w-100"
+              className="w-100 mx-auto"
               src={training.image}
               alt={training.name}
               fluid
@@ -32,7 +32,6 @@ function ProductScreen({ match }) {
               <ListGroup.Item className="py-2 ">
                 <h3 className="consultationTitle">{training.name}</h3>
               </ListGroup.Item>
-
               {/* <ListGroup.Item>
                 {/* <Rating
                   value={training.rating}
@@ -45,48 +44,18 @@ function ProductScreen({ match }) {
                     className="fa-solid fa-handshake"
                     size="5x"
                   ></i>
-                </span> */} 
+                </span> */}
               {/* </ListGroup.Item>  */}
-
-              <ListGroup.Item>User:${training.user}</ListGroup.Item> 
+              <ListGroup.Item>User:${training.user}</ListGroup.Item>
 
               <ListGroup.Item>
                 Description:{training.description}
-              </ListGroup.Item>
-              <ListGroup.Item>
-                <div
-                  className="App py-2 "
-                  styles={{
-                    height: "1000px",
-                  }}
-                >
+                <div className="App py-2 mx-auto">
                   <InlineWidget url="https://calendly.com/keith-baskerville-ohz" />
                 </div>
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          {/* <Col md={3}>
-            <Card>
-              <ListGroup variant="flush">
-                <ListGroup.Item>
-                  <Row>
-                    <Col>Price:</Col>
-                    <Col>
-                      <strong> {training.category}</strong>
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
-                <ListGroup.Item>
-                  <Row>
-                    <Col>Status:</Col>
-                    <Col>
-                      {training.openSlots > 0 ? "Class Open" : "Class Closed"}
-                    </Col>
-                  </Row>
-                </ListGroup.Item>
-              </ListGroup>
-            </Card>
-          </Col> */}
         </Row>
       </div>
     );
