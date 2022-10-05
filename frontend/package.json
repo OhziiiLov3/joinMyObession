@@ -8,18 +8,26 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "bootstrap": "^5.2.0-beta1",
+    "firebase": "^9.10.0",
+    "navigate": "^0.3.6",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-calendly": "^4.0.1",
     "react-dom": "^18.1.0",
+    "react-google-button": "^0.7.2",
     "react-google-login": "^5.2.2",
     "react-hook-form": "^7.33.1",
+    "react-navigation": "^4.4.4",
     "react-responsive-carousel": "^3.2.23",
     "react-router-bootstrap": "^0.26.1",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
+  },
+  "overrides": {
+    "autoprefixer": "10.4.5"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -4,7 +4,9 @@ import { Navbar, Nav, Container, } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 import {Link} from 'react-scroll'
 
+
 const Header = () => {
+
     return (
       <header className="py-4">
         <Navbar
@@ -65,16 +67,16 @@ const Header = () => {
                     Contact
                   </Link>
                 </LinkContainer>
-                <LinkContainer to="/login">
-                  <Link
-                    smooth={true}
-                    to="login"
-                    offset={-100}
-                    className="nav-link"
-                    href="#"
-                  >
-                    <i className="fas fa-user"></i>Log in
-                  </Link>
+                <LinkContainer to="/signin">
+                    <Link
+                      smooth={true}
+                      to="signin"
+                      offset={-100}
+                      className="nav-link"
+                      href="#"
+                    >
+                      <i className="fas fa-user"></i>Log in
+                    </Link>
                 </LinkContainer>
               </Nav>
             </Navbar.Collapse>

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link, useParams} from 'react-router-dom'
-import { Row, Col, Image, ListGroup, Button, Card } from 'react-bootstrap'
-import Rating from '../components/Rating'
+import { Row, Col, Image, ListGroup } from 'react-bootstrap'
+// import Rating from '../components/Rating'
 import trainings from '../trainings'
 import { InlineWidget } from "react-calendly";
 
